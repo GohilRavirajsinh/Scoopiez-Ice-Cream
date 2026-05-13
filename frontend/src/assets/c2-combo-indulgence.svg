@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFEBE9" />
+      <stop offset="100%" stop-color="#D7CCC8" />
+    </linearGradient>
+    <linearGradient id="caramel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB300" />
+      <stop offset="100%" stop-color="#FF8F00" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" />
+  
+  <!-- Plate -->
+  <ellipse cx="300" cy="300" rx="150" ry="40" fill="#FAFAFA" />
+  <ellipse cx="300" cy="305" rx="150" ry="40" fill="#EEEEEE" />
+  
+  <!-- Shake -->
+  <path d="M180 120 L190 280 Q195 300 230 300 T270 280 L280 120 Z" fill="url(#caramel)" opacity="0.9" />
+  <path d="M175 110 L180 120 L280 120 L285 110 Z" fill="#fff" opacity="0.6" />
+  <rect x="240" y="50" width="12" height="150" fill="#5D4037" transform="rotate(15 240 50)" />
+  <path d="M170 110 Q200 50 230 50 T290 110 Q310 135 230 135 T170 110" fill="#fff" />
+  
+  <!-- Salted Toffee Brownie -->
+  <rect x="320" y="220" width="120" height="70" rx="8" fill="#3E2723" />
+  <path d="M315 220 Q380 240 445 220 Q440 230 320 230 Z" fill="#FFCA28" />
+  <rect x="330" y="210" width="100" height="20" rx="10" fill="#FF8F00" />
+  <!-- Sea Salt Flakes -->
+  <circle cx="350" cy="215" r="2" fill="#fff" />
+  <circle cx="380" cy="212" r="3" fill="#fff" />
+  <circle cx="410" cy="218" r="2" fill="#fff" />
+</svg>

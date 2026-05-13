@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0" />
+      <stop offset="100%" stop-color="#FFE0B2" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" />
+  
+  <!-- Board -->
+  <rect x="100" y="200" width="400" height="60" rx="10" fill="#8D6E63" />
+  <rect x="100" y="210" width="400" height="60" rx="10" fill="#795548" />
+  
+  <!-- Scoop 1 (Pistachio) -->
+  <circle cx="200" cy="180" r="40" fill="#81C784" />
+  <path d="M160 180 Q200 220 240 180 Z" fill="#66BB6A" />
+  
+  <!-- Scoop 2 (Vanilla) -->
+  <circle cx="300" cy="170" r="45" fill="#FFF8E1" />
+  <path d="M255 170 Q300 215 345 170 Z" fill="#FFECB3" />
+  
+  <!-- Scoop 3 (Strawberry) -->
+  <circle cx="400" cy="180" r="40" fill="#F48FB1" />
+  <path d="M360 180 Q400 220 440 180 Z" fill="#F06292" />
+  
+  <!-- Brownie Bite -->
+  <rect x="260" y="230" width="80" height="40" rx="5" fill="#3E2723" />
+  <rect x="260" y="230" width="80" height="10" rx="2" fill="#4E342E" />
+  <circle cx="280" cy="250" r="4" fill="#8D6E63" />
+  <circle cx="310" cy="245" r="5" fill="#8D6E63" />
+  <circle cx="320" cy="260" r="3" fill="#8D6E63" />
+</svg>

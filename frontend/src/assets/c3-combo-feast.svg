@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9C4" />
+      <stop offset="100%" stop-color="#FFF59D" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" />
+  
+  <!-- Table -->
+  <path d="M0 250 L600 250 L600 400 L0 400 Z" fill="#8D6E63" />
+  <path d="M0 250 L600 250 L600 270 L0 270 Z" fill="#795548" />
+
+  <!-- Shakes in back -->
+  <rect x="150" y="100" width="60" height="150" fill="#F48FB1" rx="5" />
+  <rect x="390" y="100" width="60" height="150" fill="#81C784" rx="5" />
+  <circle cx="180" cy="90" r="35" fill="#fff" />
+  <circle cx="420" cy="90" r="35" fill="#fff" />
+
+  <!-- 5 Scoops in a large bowl -->
+  <ellipse cx="300" cy="260" rx="140" ry="50" fill="#E0E0E0" />
+  <ellipse cx="300" cy="250" rx="130" ry="40" fill="#FAFAFA" />
+  
+  <circle cx="200" cy="230" r="45" fill="#FFAB91" />
+  <circle cx="250" cy="210" r="45" fill="#CE93D8" />
+  <circle cx="300" cy="190" r="50" fill="#FFF59D" />
+  <circle cx="350" cy="210" r="45" fill="#80CBC4" />
+  <circle cx="400" cy="230" r="45" fill="#BCAAA4" />
+
+  <!-- 2 Brownies in front -->
+  <rect x="200" y="290" width="90" height="50" fill="#4E342E" transform="rotate(-10 200 290)" />
+  <rect x="310" y="280" width="90" height="50" fill="#3E2723" transform="rotate(5 310 280)" />
+</svg>

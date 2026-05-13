@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9" />
+      <stop offset="100%" stop-color="#C8E6C9" />
+    </linearGradient>
+    <linearGradient id="matcha" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81C784" />
+      <stop offset="100%" stop-color="#388E3C" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" />
+  <!-- Glass -->
+  <path d="M150 120 L160 320 Q165 340 200 340 T240 320 L250 120 Z" fill="url(#matcha)" opacity="0.9" />
+  <path d="M145 110 L150 120 L250 120 L255 110 Z" fill="#fff" opacity="0.5" />
+  <!-- Straw -->
+  <rect x="210" y="50" width="10" height="150" fill="#4CAF50" transform="rotate(15 210 50)" />
+  <!-- Whipped Cream -->
+  <path d="M140 110 Q170 60 200 60 T260 110 Q280 130 200 130 T140 110" fill="#fff" />
+  <path d="M160 90 Q180 50 200 50 T240 90 Q250 100 200 100 T160 90" fill="#f1f8e9" />
+  <!-- Matcha Dust -->
+  <circle cx="180" cy="70" r="2" fill="#2E7D32" />
+  <circle cx="210" cy="65" r="1.5" fill="#2E7D32" />
+  <circle cx="190" cy="85" r="2" fill="#2E7D32" />
+  <circle cx="220" cy="80" r="1.5" fill="#2E7D32" />
+</svg>

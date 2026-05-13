@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE4EC" />
+      <stop offset="100%" stop-color="#F8BBD0" />
+    </linearGradient>
+    <linearGradient id="rose" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F48FB1" />
+      <stop offset="100%" stop-color="#E91E63" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" />
+  <!-- Glass -->
+  <path d="M150 120 L160 320 Q165 340 200 340 T240 320 L250 120 Z" fill="url(#rose)" opacity="0.85" />
+  <path d="M145 110 L150 120 L250 120 L255 110 Z" fill="#fff" opacity="0.6" />
+  <!-- Straw -->
+  <rect x="210" y="50" width="10" height="150" fill="#E91E63" transform="rotate(15 210 50)" />
+  <!-- Whipped Cream -->
+  <path d="M135 110 Q170 50 200 50 T265 110 Q285 135 200 135 T135 110" fill="#fff" />
+  <path d="M155 90 Q180 40 200 40 T245 90 Q255 105 200 105 T155 90" fill="#FCE4EC" />
+  <!-- Rose Petals -->
+  <path d="M170 80 Q175 75 180 80 Q175 85 170 80 Z" fill="#D81B60" />
+  <path d="M210 60 Q215 55 220 60 Q215 65 210 60 Z" fill="#D81B60" />
+  <path d="M190 95 Q195 90 200 95 Q195 100 190 95 Z" fill="#D81B60" />
+  <path d="M230 85 Q235 80 240 85 Q235 90 230 85 Z" fill="#D81B60" />
+</svg>
